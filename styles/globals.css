@@ -45,11 +45,12 @@ a {
   margin-top: 10px;
 }
 .back {
-  height: 2.5rem;
+  height: 1.5rem;
   background-color: #566CD6;
   border-radius: 25px;
   margin-left: 5px;
   margin-top: 5px;
+  width: 1.5rem;
 }
 .input-search {
   border-radius: 16px;
