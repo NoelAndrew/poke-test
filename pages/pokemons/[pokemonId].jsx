@@ -47,7 +47,7 @@ return (
         <a href="../">
         <img
             alt="buscar"
-            src="/icons/Back.svg"
+            src="/iconos/Back.svg"
             width={50}
             height={50}
             className="back"

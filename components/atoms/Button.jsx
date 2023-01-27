@@ -5,7 +5,7 @@ const Button = ({ onClick }) => (
         <button name="button" onClick={onClick} className="btn">
             <img 
                 alt="search"
-                src="/icons/search.svg"
+                src="/iconos/search.svg"
             />
         </button>
     </>

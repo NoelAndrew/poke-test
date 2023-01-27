@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="menu">
         <Image
             alt="logo"
-            src="/icons/Menu.svg"
+            src="/iconos/Menu.svg"
             width={100}
             height={40}
             />
@@ -36,7 +36,7 @@ const Navbar = () => {
         <p className="description">&quot;Work hard on your tests&quot;</p>
         <div role="button" className="logout">
             <img
-                src="/icons/Logout.svg"
+                src="/iconos/Logout.svg"
                 alt="logut"
             />
             <div className="logout-text">
