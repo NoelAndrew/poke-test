@@ -1,0 +1,255 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(#FBFCFF, #F2F4FF);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.input {
+  height: 30px;
+}
+.btn {
+    background-color: #566CD6;
+    color: white;
+    margin-left: -35px;
+    height: 1.5rem;
+    border-radius: 16px;
+    border: none;
+}
+.input {
+  height: 30px;
+}
+.navbar {
+  background-color: #566CD6;
+  display: flow-root;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.search-bar {
+  float: right;
+  padding-right: 2rem;
+  display: flex;
+  margin-top: 10px;
+}
+.back {
+  height: 2.5rem;
+  background-color: #566CD6;
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.input-search {
+  border-radius: 16px;
+  font-size: small;
+  height: 1.5rem;
+  padding: 10px;
+  border: none;
+  box-shadow: 10px 6px 8px rgba(137, 196, 244, 0.5);
+}
+.content {
+  width: 100%;
+  padding: 10px;
+}
+.buscador-slug {
+  position: fixed;
+  margin-left: 60%;
+}
+.level {
+  opacity: 50%;
+}
+.description {
+  font-size: .5rem;
+  width: 10rem;
+}
+.menu {
+  display: none;
+}
+.type {
+  background-color: #566CD6;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  width: fit-content;
+  font-size: small;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: black;
+    background-color: white;
+  }
+}
+
+.avatar{
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.pokeTable{
+  width: 100%;
+  border: solid;
+  text-align: center;
+}
+.pokeHeader{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.poke-container {
+  display: inline-block;
+  width: 10rem;
+  margin-right: 5rem;
+  height: 12rem;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 1px 1px 5px rgba(137, 196, 244, 0.5);
+  margin-bottom: 5rem;
+  background-color: white;
+}
+.poke-container-slug {
+  display: inline-block;
+  width: 25rem;
+  height: 30rem;
+  border: none;
+  padding: 13px;
+  border-radius: 16px;
+  box-shadow: 1px 1px 5px rgba(137, 196, 244, 0.5);
+  margin-bottom: 5rem;
+  background-color: white;
+  margin-top: 5%;
+}
+.fronts {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.poke-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: .5rem;
+  margin-bottom: 0.5rem;
+}
+.show-pokemon {
+  padding: 4rem;
+}
+.poke-title {
+  font-weight: bold;
+  color: #40415E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poke-title-slug {
+  font-weight: bold;
+  color: #40415E;
+  font-size: 40px;
+}
+.poke-subtitle-slug {
+  font-weight: bold;
+  color: #40415E;
+  font-size: 15px;
+}
+.slug-container {
+  border-bottom: inset;
+  height: 4rem;
+}
+.stats-container {
+  display: flex;
+  margin-top: 10%;
+}
+.see-pokemon {
+  background-color: #566CD6;
+  color: white;
+  border-radius: 16px;
+}
+.logout {
+  background-color: rgba(137, 196, 244, 0.5);
+  display: flex;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 12rem;
+}
+.logout-text {
+  padding-left: 2rem;
+  position: static;
+  font-size: initial;
+}
+.card-id {
+  font-size: medium;
+}
+.main-content {
+  display: flex;
+}
+@media only screen and (max-width: 767px ) {
+  .main-content {
+    display: block;
+  }
+  .navbar {
+    background-color: #566CD6;
+    display: flow-root;
+    text-align: center;
+    color: white;
+    padding: 30px;
+  }
+  .username {
+    display: none;
+  }
+  .avatar {
+    display: none;
+  }
+  .logout {
+    display: none;
+  }
+  .description{
+    display: none;
+  }
+  .head {
+    display: flex;
+  }
+  .logo {
+    display: flex;
+  }
+  .menu {
+    display: flex;
+  }
+  .poke-container-slug {
+    width: auto;
+    display: block;
+  }
+  .buscador-slug {
+    display: none;
+  }
+  .poke-container {
+    display: block;
+    margin-right: 0px;
+  }
+  .stats-container {
+    display: flex;
+    justify-content: center;
+  }
+}
